@@ -3,7 +3,7 @@ import { Equipment, EquipmentType } from '../types/inventory';
 import { useAuthStore } from '../store/auth-store';
 
 const api = axios.create({
-  baseURL: 'https://controle-de-estoque-backend.vercel.app/',
+  baseURL: 'https://controle-de-estoque-backend.vercel.app',
 });
 
 // Add request interceptor to include auth token
