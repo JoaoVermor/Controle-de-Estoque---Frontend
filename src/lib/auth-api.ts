@@ -2,7 +2,7 @@ import axios from 'axios';
 import { LoginCredentials, AuthResponse } from '../types/auth';
 
 const api = axios.create({
-  baseURL: 'https://controle-de-estoque-backend.vercel.app/',
+  baseURL: 'https://controle-de-estoque-backend.vercel.app',
 });
 
 export const authApi = {
